@@ -1,0 +1,13 @@
+
+stwórz program, który w petli wczytuje nazwe miasta i podaje jaka jest
+temeperatura dla danego miasta 
+
+ale za kazdym razem kiedy wypisuje temperaure, podaje takze sredni¹ temperature
+dla wszystkich miast wczeœniej sprawdzonych 
+
+warszawa
+8 , 8
+krakrow 
+10, 9
+wroclaw 
+12, 10

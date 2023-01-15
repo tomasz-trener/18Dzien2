@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08TabliceINapisy", "P08Tab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09Listy", "P09Listy\P09Listy.csproj", "{F8CC50B1-4851-40B3-B151-3C454B7AE3AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10ZadanieListy", "P10ZadanieListy\P10ZadanieListy.csproj", "{5C19CFEF-3AD4-4484-A2AE-BE06CDD3B4B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{F8CC50B1-4851-40B3-B151-3C454B7AE3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8CC50B1-4851-40B3-B151-3C454B7AE3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8CC50B1-4851-40B3-B151-3C454B7AE3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C19CFEF-3AD4-4484-A2AE-BE06CDD3B4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C19CFEF-3AD4-4484-A2AE-BE06CDD3B4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C19CFEF-3AD4-4484-A2AE-BE06CDD3B4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C19CFEF-3AD4-4484-A2AE-BE06CDD3B4B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
