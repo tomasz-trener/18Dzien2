@@ -30,9 +30,9 @@ namespace P11ZadanieZawodnicy
             {
                 string[] komorki = wiersze[i].Split(';');
                 if (komorki[4].ToLower() == kraj)
-                    zawodnicy.Add(komorki[2] + " " + komorki[3]);
+                     zawodnicy.Add(komorki[2] + " " + komorki[3] + " " + komorki[6]);
+                    //zawodnicy.Add(wiersze[i]);
             }
-
             string zawartosc = string.Join("\r\n", zawodnicy);
             File.WriteAllText("c:\\dane\\" + kraj + ".txt", zawartosc);
 
