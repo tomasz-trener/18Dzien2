@@ -1,0 +1,14 @@
+
+Wczytaj z konsoli dowolne zdanie np: "Ala ma kota i ma psa"
+potem wczytaj dowolny znak lub wyraz np: "ma"
+program zwraca informacjê ile razy w zdaniu wyst¹pi³ dany znak lub wyraz
+
+przyk³adowa odpowiedz w tym przyk³adzie to: 2
+
+     01234........
+     Ala ma kota i ma psa
+                       ma
+
+
+
+    substring 
