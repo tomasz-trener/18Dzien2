@@ -16,11 +16,10 @@ namespace P05ZadaniePogoda
             {
                 Console.WriteLine("Podaj miasto");
                 string miasto = Console.ReadLine();
-                string url = "https://www.google.com/search?q=pogoda+" + miasto;
+                string url = $"https://www.google.com/search?q=pogoda+{miasto}";
                 string dane = new WebClient().DownloadString(url);
                 //   Console.WriteLine(dane);
                 //File.WriteAllText("c:\\dane\\strona.html", dane);
-
 
                 string szukanyZnak = "°";
                 string znakKoncowy = ">";
@@ -29,15 +28,11 @@ namespace P05ZadaniePogoda
                 int aktualnaPozycja = indx;
 
                 while (dane.Substring(aktualnaPozycja, 1) != znakKoncowy)
-                    aktualnaPozycja--;
+                    aktualnaPozycja--; // zmniejsz o 1     aktualnapozycja = atktualnapozycja - 1
 
                 string wynik = dane.Substring(aktualnaPozycja + 1, indx - aktualnaPozycja + 1);
                 Console.WriteLine(wynik);
-            }
-            
-
-             
-
+            }   
         }
     }
 }

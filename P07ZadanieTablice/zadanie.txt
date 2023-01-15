@@ -1,0 +1,13 @@
+napisz program ,który wczytuje w pêtli po koleji imiona np:
+
+
+Jan
+Adam
+Ala
+Lukasz
+koniec
+
+gdy program wykryje koniec , konczy wczytywanie imion do tablicy 
+
+nastepnie wyswietla w petli tylko te imiona, które sa d³u¿e ni¿ 3 znaki 
+i w nawasie podaje takze liczbê znaków dla kazdego imienia 
