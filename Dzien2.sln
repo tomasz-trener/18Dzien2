@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03PetleNieskonczone", "P03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04ZadaniePetle", "P04ZadaniePetle\P04ZadaniePetle.csproj", "{D9541DBE-109E-44F0-9AA5-7F4FFC359422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05ZadaniePogoda", "P05ZadaniePogoda\P05ZadaniePogoda.csproj", "{EC026AF0-48DF-4669-BAEA-D2A71DB7A2BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D9541DBE-109E-44F0-9AA5-7F4FFC359422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9541DBE-109E-44F0-9AA5-7F4FFC359422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9541DBE-109E-44F0-9AA5-7F4FFC359422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC026AF0-48DF-4669-BAEA-D2A71DB7A2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC026AF0-48DF-4669-BAEA-D2A71DB7A2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC026AF0-48DF-4669-BAEA-D2A71DB7A2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC026AF0-48DF-4669-BAEA-D2A71DB7A2BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
