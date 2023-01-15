@@ -10,7 +10,7 @@ namespace P10ZadanieListy
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
             List<int> temperatury = new List<int>();
             List<string> miasta = new List<string>();
             while (true)
