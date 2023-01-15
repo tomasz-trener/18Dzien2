@@ -10,6 +10,20 @@ namespace P14Zadanie
     {
         static void Main(string[] args)
         {
+            int liczba1 = Convert.ToInt32(Console.ReadLine());
+            int liczba2 = Convert.ToInt32(Console.ReadLine());
+
+            int suma = liczba1 + liczba2;
+
+            Console.WriteLine(suma);
+            //http://pl.spoj.com/problems/JHTMLLET/ 
+
+
+            string[] tab = { "a", "b", "c" };
+
+            List<string> lista = tab.ToList();
+
+            string[] tab2 = lista.ToArray();
         }
     }
 }
